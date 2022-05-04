@@ -3,13 +3,23 @@ channels:
 - defaults
 - conda-forge
 dependencies:
-- python=3.9
+- python>=3.9
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - scikit-learn
 - scikit-plot
+- aeppl==0.0.28
+- aesara==2.6.2
+- arviz>=0.12.0
+- cachetools>=4.2.1
+- cloudpickle
+- fastprogress>=0.2.0
+- numpy>=1.15.0
+- scipy>=1.4.1
+- typing-extensions>=3.7.4
+- pymc3
 - pip
 - pip:
   - ipython
