@@ -12,7 +12,7 @@ dependencies:
 - scikit-plot
 - aeppl==0.0.28
 - aesara==2.6.2
-- arviz>=0.12.0
+- arviz<=0.11.0
 - cachetools>=4.2.1
 - cloudpickle
 - fastprogress>=0.2.0
